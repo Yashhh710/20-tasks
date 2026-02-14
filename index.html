@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend & Creative Projects</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #141414;
+      color: #fff;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 30px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      color: #ccc;
+      font-size: 1.1em;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .card {
+      background: #1a1a1a;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+    }
+    .card-content {
+      padding: 15px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 1.2em;
+    }
+    .card p {
+      flex: 1;
+      font-size: 0.95em;
+      margin-bottom: 10px;
+    }
+    .card button {
+      background: #162025;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.95em;
+      transition: background 0.2s ease;
+    }
+    .card button:hover {
+      background: #2a3a47;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Frontend & Creative Projects</h1>
+  <p>Click a project to open it in a new tab</p>
+</header>
+
+<div class="container">
+
+  <!-- Project 1 -->
+  <div class="card">
+    <img src="thumbnails/01.png" alt="01 Animated Profile Card">
+    <div class="card-content">
+      <h2>01 Animated Profile Card</h2>
+      <p>Interactive profile card with hover effects and social icons.</p>
+      <button onclick="window.open('01_Animated_Profile_Card.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="card">
+    <img src="thumbnails/02.png" alt="02 Responsive Navigation">
+    <div class="card-content">
+      <h2>02 Responsive Navigation</h2>
+      <p>Navigation bar with hover underline and mobile-friendly stacking.</p>
+      <button onclick="window.open('02_Responsive_Navigation.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="card">
+    <img src="thumbnails/03.png" alt="03 3x3 Product Grid">
+    <div class="card-content">
+      <h2>03 3x3 Product Grid</h2>
+      <p>CSS Grid-based product gallery with image zoom on hover.</p>
+      <button onclick="window.open('03_3x3_Product_Grid.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+  <!-- Project 4 -->
+  <div class="card">
+    <img src="thumbnails/04.png" alt="04 Hero Section Design">
+    <div class="card-content">
+      <h2>04 Hero Section Design</h2>
+      <p>Split hero section with slide-in text and pulse button.</p>
+      <button onclick="window.open('04_Hero_Section_Design.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+  <!-- Project 5 -->
+  <div class="card">
+    <img src="thumbnails/05.png" alt="05 Pricing Table">
+    <div class="card-content">
+      <h2>05 Pricing Table</h2>
+      <p>Flexbox pricing cards with gradient animation and highlighted middle card.</p>
+      <button onclick="window.open('05_Pricing_Table.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+  <!-- Project 6 -->
+  <div class="card">
+    <img src="thumbnails/06.png" alt="06 Asymmetrical Gallery">
+    <div class="card-content">
+      <h2>06 Asymmetrical Gallery</h2>
+      <p>CSS Grid gallery with grayscale-to-color hover and varied row/column spans.</p>
+      <button onclick="window.open('06_Asymmetrical_Gallery.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+  <!-- Project 7 -->
+  <div class="card">
+    <img src="thumbnails/07.png" alt="07 Dashboard Layout">
+    <div class="card-content">
+      <h2>07 Dashboard Layout</h2>
+      <p>Grid + Flex dashboard with sidebar, header, and loading shimmer cards.</p>
+      <button onclick="window.open('07_Dashboard_Layout.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+  <!-- Project 8 -->
+  <div class="card">
+    <img src="thumbnails/08.png" alt="08 Vertical Timeline">
+    <div class="card-content">
+      <h2>08 Vertical Timeline</h2>
+      <p>Flexbox timeline with pulse effect and responsive alignment.</p>
+      <button onclick="window.open('08_Vertical_Timeline.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+  <!-- Project 9 -->
+  <div class="card">
+    <img src="thumbnails/09.png" alt="09 Statistics Section">
+    <div class="card-content">
+      <h2>09 Statistics Section</h2>
+      <p>4 equal-width cards with bounce animation displaying statistics.</p>
+      <button onclick="window.open('09_Statistics_Section.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+  <!-- Project 10 -->
+  <div class="card">
+    <img src="thumbnails/10.png" alt="10 Floating Testimonials">
+    <div class="card-content">
+      <h2>10 Floating Testimonials</h2>
+      <p>Flexbox testimonial section with smooth floating effect and background change.</p>
+      <button onclick="window.open('10_Floating_Testimonials.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+  <!-- Project 11 -->
+  <div class="card">
+    <img src="thumbnails/11.png" alt="11 CSS Loader Page">
+    <div class="card-content">
+      <h2>11 CSS Loader Page</h2>
+      <p>Centered loader with rotation animation using Flexbox.</p>
+      <button onclick="window.open('11_CSS_Loader_Page.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+  <!-- Project 12 -->
+  <div class="card">
+    <img src="thumbnails/12.png" alt="12 Magazine Layout">
+    <div class="card-content">
+      <h2>12 Magazine Layout</h2>
+      <p>Grid magazine layout with fade-in sections and featured article spanning multiple columns.</p>
+      <button onclick="window.open('12_Magazine_Layout.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+  <!-- Project 13 -->
+  <div class="card">
+    <img src="thumbnails/13.png" alt="13 Animated Buttons Collection">
+    <div class="card-content">
+      <h2>13 Animated Buttons Collection</h2>
+      <p>Flexbox collection of 5 buttons, each with unique hover animations.</p>
+      <button onclick="window.open('13_Animated_Buttons_Collection.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+  <!-- Project 14 -->
+  <div class="card">
+    <img src="thumbnails/14.png" alt="14 Split Screen Layout">
+    <div class="card-content">
+      <h2>14 Split Screen Layout</h2>
+      <p>50-50 layout with fade-in animation and responsive design.</p>
+      <button onclick="window.open('14_Split_Screen_LayoutSplit_Screen_Layout.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+  <!-- Project 15 -->
+  <div class="card">
+    <img src="thumbnails/15.png" alt="15 Flip Card Animation">
+    <div class="card-content">
+      <h2>15 Flip Card Animation</h2>
+      <p>3D flip card with front & back images and interactive hover effect.</p>
+      <button onclick="window.open('15_Flip_Card_Animation.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+  <!-- Project 16 -->
+  <div class="card">
+    <img src="thumbnails/16.png" alt="16 Responsive Footer">
+    <div class="card-content">
+      <h2>16 Responsive Footer</h2>
+      <p>4-column footer with hover transitions, created using Grid + Flex.</p>
+      <button onclick="window.open('16_Responsive_Footer.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+  <!-- Project 17 -->
+  <div class="card">
+    <img src="thumbnails/17.png" alt="17 Animated Background Section">
+    <div class="card-content">
+      <h2>17 Animated Background Section</h2>
+      <p>Fullscreen video background with moving gradient and fade-in text.</p>
+      <button onclick="window.open('17_Animated_Background_Section.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+  <!-- Project 18 -->
+  <div class="card">
+    <img src="thumbnails/18.png" alt="18 E-commerce Layout">
+    <div class="card-content">
+      <h2>18 E-commerce Layout</h2>
+      <p>Amazon-style layout with sidebar, product grid, curved buttons, search bar, and cart.</p>
+      <button onclick="window.open('18_E-commerce_Layout.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+  <!-- Project 19 -->
+  <div class="card">
+    <img src="thumbnails/19.png" alt="19 Progress Bars">
+    <div class="card-content">
+      <h2>19 Progress Bars</h2>
+      <p>Flexbox-based progress bars with filling animation.</p>
+      <button onclick="window.open('19_Progress_Bars.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+  <!-- Project 20 -->
+  <div class="card">
+    <img src="thumbnails/20.png" alt="20 Advanced Creative Section">
+    <div class="card-content">
+      <h2>20 Advanced Creative Section</h2>
+      <p>Overlapping layout design using Grid + Flex with at least 3 animations.</p>
+      <button onclick="window.open('20_Advanced_Creative_Section.html', '_blank')">Open Project</button>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
